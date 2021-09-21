@@ -4,8 +4,8 @@ import { OverviewComponent } from './components/overview/overview.component';
 
 const routes: Routes = [
     {
-        path:'admin',
-        //pathMatch:"full",
+        path:'',
+        pathMatch:"full",
         component:OverviewComponent
     }
 ];
